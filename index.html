@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>KameyMall spreadsheet – kategorie, zdjęcia QC i wysyłka do Polski</title>
+  <meta name="description" content="KameyMall spreadsheet po polsku. Przeglądaj 10 kategorii i sprawdź, jak porównać wymiary, zdjęcia QC, warianty oraz koszt dostawy do Polski.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pl_PL">
+  <meta property="og:title" content="KameyMall spreadsheet – przewodnik po zakupach">
+  <meta property="og:description" content="Kategorie produktów, zdjęcia QC, dobór rozmiaru i planowanie dostawy do Polski.">
+  <!-- Brief SEO: bezpośredni wynik Google był niedostępny do weryfikacji. Porównano wyniki dla hasła z 10 domen: kameymall-sheet.com, chinareptools.com, kameymallchina.com, kameymalltable.com, kameymallspreadsheet.org, jadeship.com, kameymall.de, spreadsheet-kameymall.com, kameymallspreadsheet.com i kameymallspreadsheets.com. Frazy poboczne: KameyMall poradnik zakupowy, KameyMall zdjęcia QC, KameyMall linki do produktów, KameyMall wysyłka do Polski. -->
+  <style>
+    :root{color-scheme:light;--paper:#f7f4ee;--ink:#201a24;--muted:#584e5d;--plum:#3a203b;--lime:#ecf7ab;--line:#d7cdd7;--white:#fffdf9}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:inherit}a:focus-visible,summary:focus-visible{outline:3px solid #9b4ba3;outline-offset:4px}
+    img{display:block;width:100%;height:auto}figure{margin:0}p{margin:0 0 1em}p:last-child{margin-bottom:0}
+    .wrap{width:min(72rem,calc(100% - 2rem));margin-inline:auto}
+    .mast,.foot{background:var(--plum);color:#fff}.mast .wrap,.foot .wrap{padding-block:1rem}.brand{font-weight:750;text-underline-offset:.25em}
+    .hero{display:grid;grid-template-columns:1.12fr 1fr;margin-block:1.25rem 2.3rem;border:1px solid var(--line);background:var(--white)}
+    .hero-copy{padding:clamp(1.3rem,4vw,3.4rem);align-self:center}
+    h1,h2,h3{line-height:1.13;margin:0 0 .65em}h1{font-size:clamp(2.25rem,6vw,4.65rem);letter-spacing:-.065em;overflow-wrap:anywhere;margin-bottom:.32em}h2{font-size:clamp(1.65rem,4vw,2.65rem);letter-spacing:-.045em}h3{font-size:1.28rem}
+    .hero figure{background:#eee8ee;display:grid;align-content:center}.hero img{aspect-ratio:4/3;object-fit:contain;background:#fff}
+    figcaption{padding:.55rem .8rem;font-size:.88rem;color:var(--muted)}
+    .cta{display:inline-block;background:var(--lime);color:#242515;padding:.65rem 1rem;border:1px solid #a4af5c;font-weight:750;text-underline-offset:.18em}
+    section{margin-block:2.4rem}.categories{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.55rem;list-style:none;padding:0;margin:0}
+    .categories a{display:flex;align-items:center;justify-content:space-between;gap:.4em;min-height:3.4rem;height:100%;padding:.6rem .75rem;background:var(--white);border:1px solid var(--line);font-weight:650;text-decoration:none}
+    .categories a:hover{background:var(--lime);text-decoration:underline}.categories span{flex:none}
+    .gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.65rem}.gallery figure{background:var(--white);border:1px solid var(--line)}.gallery img{aspect-ratio:1;object-fit:contain;background:#fff}
+    .note{color:var(--muted)}.articles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem}.articles article{padding:1.2rem;background:var(--white);border-top:4px solid var(--plum)}
+    .faq{padding:clamp(1rem,4vw,2rem);background:#efe6ef}.faq details{border-top:1px solid #cdbdcd}.faq summary{cursor:pointer;font-weight:700;padding:.85rem .2rem}.faq details p{padding:0 .2rem .9rem;max-width:72ch}
+    @media(max-width:52rem){.categories{grid-template-columns:repeat(3,minmax(0,1fr))}.articles{grid-template-columns:1fr}}
+    @media(max-width:39rem){.hero{grid-template-columns:1fr}.hero img{aspect-ratio:16/9}.categories,.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "inLanguage":"pl",
+    "name":"KameyMall spreadsheet – pytania i odpowiedzi",
+    "description":"Przewodnik po kategoriach produktów, kontroli zdjęć QC i planowaniu dostawy do Polski.",
+    "mainEntity":[
+      {"@type":"Question","name":"Czym jest KameyMall spreadsheet?","acceptedAnswer":{"@type":"Answer","text":"To zestawienie kategorii i wskazówek, które pomaga porównać oferty. Na tej stronie odnośniki prowadzą do katalogu HipoBuyFind."}},
+      {"@type":"Question","name":"Czy zdjęcia QC potwierdzają autentyczność produktu?","acceptedAnswer":{"@type":"Answer","text":"Zdjęcia QC pomagają ocenić widoczne cechy egzemplarza, takie jak szwy i stan powierzchni. Do oceny autentyczności potrzebne są dodatkowe informacje o pochodzeniu produktu."}},
+      {"@type":"Question","name":"Jak dobrać rozmiar butów z chińskiej oferty?","acceptedAnswer":{"@type":"Answer","text":"Zmierz obie stopy, przyjmij długość dłuższej i sprawdź, czy tabela sprzedawcy podaje długość stopy, czy wkładki."}},
+      {"@type":"Question","name":"Jak oszacować całkowity koszt dostawy do Polski?","acceptedAnswer":{"@type":"Answer","text":"Porównaj aktualne wyceny dla adresu w Polsce po ustaleniu wagi i wymiarów paczki. Do budżetu dolicz cenę produktu, ewentualne opłaty pośrednika oraz należności wskazane dla przesyłki."}}
+    ]
+  }
+  </script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/alsch/">
+</head>
+<body>
+  <header class="mast">
+    <div class="wrap"><a class="brand" href="https://www.hipobuyfind.com">www.hipobuyfind.com</a></div>
+  </header>
+  <main class="wrap">
+    <div class="hero">
+      <div class="hero-copy">
+        <h1>KameyMall spreadsheet</h1>
+        <p>Polski przewodnik po przeglądaniu ofert. Wybierz kategorię w katalogu HipoBuyFind, porównaj wymiary i zdjęcia produktu, a przed zamówieniem policz koszt całej paczki.</p>
+        <a class="cta" href="https://www.hipobuyfind.com">Otwórz katalog HipoBuyFind</a>
+      </div>
+      <figure>
+        <img src="https://www.tike.gr/files/images/products/media/CW2/CW2288-111/images/CW2288-111.jpg.webp" width="800" height="600" alt="Biały but Nike Air Force 1 ’07 pokazany z boku" loading="eager" fetchpriority="high">
+        <figcaption>Nike Air Force 1 ’07 · przykład obuwia</figcaption>
+      </figure>
+    </div>
+    <section aria-labelledby="kategorie">
+      <h2 id="kategorie">Kategorie produktów</h2>
+      <ul class="categories">
+        <li><a href="https://hipobuyfind.com/category-911-Shoes.html">Buty <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-912-Hoodies%2FSweaters.html">Bluzy i swetry <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-913-T-Shirts.html">T-shirty <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-914-Jackets.html">Kurtki <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-915-Pants%2FShorts.html">Spodnie i szorty <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-916-Headwear.html">Nakrycia głowy <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-917-Sets.html">Komplety <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-918-underwear%2Funderpants.html">Bielizna <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-919-Jersey.html">Koszulki sportowe <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-920-Accessories.html">Akcesoria <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </section>
+    <section aria-labelledby="poradniki">
+      <h2 id="poradniki">Co sprawdzić przed zamówieniem</h2>
+      <div class="articles">
+        <article>
+          <h3>Link, wariant i rozmiar</h3>
+          <p>Zapisz link do produktu, nazwę sprzedawcy, kod modelu i datę sprawdzenia oferty. Po ponownym otwarciu linku porównaj wariant kolorystyczny, dostępność rozmiaru i cenę wybranej opcji.</p>
+          <p>Przy bluzach i kurtkach porównaj szerokość pod pachami, długość rękawa i długość całkowitą z ubraniem mierzonym na płasko. W spodniach sprawdź szerokość pasa i długość nogawki od kroku. Przy butach odczytaj z tabeli, czy pomiar dotyczy stopy, czy wkładki.</p>
+        </article>
+        <article>
+          <h3>Zdjęcia QC i jakość wykonania</h3>
+          <p>Jeśli dostępne są zdjęcia kontroli jakości z magazynu, zestaw je z opisem wybranego wariantu. Przy butach obejrzyj oba boki i podeszwę, przy odzieży obejrzyj szwy, metkę ze składem i zapięcia. W torebce sprawdź narożniki, uchwyty i wnętrze.</p>
+          <p>Do czapki przyda się obwód i zakres regulacji, a przy bransoletce sprawdź obwód wewnętrzny i rodzaj zapięcia. Gdy na zdjęciu brakuje skali, poproś o kadr z miarką. Odcień porównuj ostrożnie, bo zależy od oświetlenia.</p>
+        </article>
+        <article>
+          <h3>Wysyłka do Polski i koszt końcowy</h3>
+          <p>W budżecie uwzględnij cenę produktu, transport do magazynu, opłatę pośrednika i przewóz międzynarodowy. Przy przeliczeniu ceny na złote sprawdź kurs płatności i ewentualny koszt przewalutowania.</p>
+          <p>Porównaj wagę rzeczywistą z wagą objętościową według zasad wybranej linii. Przy łączeniu paczek poproś o wymiary po przepakowaniu. Przed płatnością sprawdź warunki zwrotu, śledzenie przesyłki i należności wskazane dla zamówienia.</p>
+        </article>
+      </div>
+    </section>
+    <section aria-labelledby="przyklady">
+      <h2 id="przyklady">Przykłady odzieży i akcesoriów</h2>
+      <p class="note">Zdjęcia są ilustracyjne. Dostępność i pochodzenie produktu sprawdzisz w konkretnej ofercie. Przewodnik jest niezależny od KameyMall i przedstawionych marek.</p>
+      <div class="gallery">
+        <figure>
+          <img src="https://bordergara.com/cdn/shop/products/dr-2203-0062.jpg?v=1658417900&amp;width=420" width="420" height="420" loading="lazy" decoding="async" alt="Oliwkowa koszulka Dior CD Icon z krótkim rękawem">
+          <figcaption>Dior CD Icon · koszulka</figcaption>
+        </figure>
+        <figure>
+          <img src="https://media.gucci.com/style/HEXFBFBFB_South_0_160_640x640/1751298339/838745_3HBC4_2600_001_100_0000_Light.jpg" width="640" height="640" loading="lazy" decoding="async" alt="Czapka z daszkiem Gucci z tkaniny z motywem GG">
+          <figcaption>Gucci GG · czapka z daszkiem</figcaption>
+        </figure>
+        <figure>
+          <img src="https://kr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-%EC%8A%A4%ED%94%BC%EB%94%94-%EB%B0%98%EB%91%98%EB%A6%AC%EC%97%90-25-speedy-bandouliere-25---M46977_PM2_Front%20view.png?hei=480&amp;wid=480" width="480" height="480" loading="lazy" decoding="async" alt="Brązowa torebka Louis Vuitton Speedy Bandoulière 25 z motywem Monogram">
+          <figcaption>Louis Vuitton Speedy Bandoulière 25 · torebka</figcaption>
+        </figure>
+        <figure>
+          <img src="https://assets.hermes.com/is/image/hermesproduct/bracelet-clic-h--700001F%204P-front-1-300-0-1000-1000_b.jpg?wid=480" width="480" height="480" loading="lazy" decoding="async" alt="Emaliowana bransoletka Hermès Clic H z zapięciem w kształcie litery H">
+          <figcaption>Hermès Clic H · bransoletka</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="faq" aria-labelledby="faq">
+      <h2 id="faq">Najczęstsze pytania</h2>
+      <details open>
+        <summary>Czym jest KameyMall spreadsheet?</summary>
+        <p>To zestawienie kategorii i wskazówek, które pomaga porównać oferty. Na tej stronie odnośniki prowadzą do katalogu HipoBuyFind.</p>
+      </details>
+      <details>
+        <summary>Czy zdjęcia QC potwierdzają autentyczność produktu?</summary>
+        <p>Zdjęcia QC pomagają ocenić widoczne cechy egzemplarza, takie jak szwy i stan powierzchni. Do oceny autentyczności potrzebne są dodatkowe informacje o pochodzeniu produktu.</p>
+      </details>
+      <details>
+        <summary>Jak dobrać rozmiar butów z chińskiej oferty?</summary>
+        <p>Zmierz obie stopy, przyjmij długość dłuższej i sprawdź, czy tabela sprzedawcy podaje długość stopy, czy wkładki.</p>
+      </details>
+      <details>
+        <summary>Jak oszacować całkowity koszt dostawy do Polski?</summary>
+        <p>Porównaj aktualne wyceny dla adresu w Polsce po ustaleniu wagi i wymiarów paczki. Do budżetu dolicz cenę produktu, ewentualne opłaty pośrednika oraz należności wskazane dla przesyłki.</p>
+      </details>
+    </section>
+  </main>
+  <footer class="foot">
+    <div class="wrap"><a class="brand" href="https://www.hipobuyfind.com">Przejdź do HipoBuyFind</a></div>
+  </footer>
+</body>
+</html>
